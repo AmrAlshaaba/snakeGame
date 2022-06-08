@@ -110,8 +110,6 @@ function gameEngine() {   //updating snake array & food
   board.appendChild(foodElement);
 }
 
-
-
 //The main logic, the control and high score
 let hiscore = localStorage.getItem("hiscore");
 if (hiscore === null) {
